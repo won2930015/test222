@@ -1,0 +1,9 @@
+git config --global user.name "won2930015"
+git config --global user.email "58769598@qq.com"
+ssh-keygen -t rsa -C "58769598@qq.com"
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:won2930015/test333.git
+git push -u origin master
